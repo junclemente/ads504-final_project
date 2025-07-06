@@ -9,7 +9,7 @@
 # Contributors
 
 - [Graham Ward](https://github.com/gw-00)
-- Michelle Wang
+- [Michelle Wang](https://github.com/xuany823)
 - [Jun Clemente](https://github.com/junclemente)
 
 # Methods
