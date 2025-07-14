@@ -1,0 +1,26 @@
+name: ads504_project
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python >= 3.7
+  - ipykernel
+  - jupyter
+  - matplotlib
+  - numpy
+  - pandas
+  - scikit-learn >= 1.0.1
+  - seaborn
+  - scipy
+  - joblib
+  - xgboost
+  - tensorflow
+  - keras
+  - pip
+  - nbconvert
+  - pandoc
+  - tectonic
+  - nbstripout
+  - black
+  - flake8
+  - isort
