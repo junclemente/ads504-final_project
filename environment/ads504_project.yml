@@ -1,26 +1,44 @@
 name: ads504_project
+
+# YAML file was updated by ChatGPT to be more informative
+
+# Channels to search for packages
 channels:
   - conda-forge
   - defaults
+
 dependencies:
-  - python =3.10
-  - ipykernel
-  - jupyter
-  - matplotlib
-  - numpy
-  - pandas
-  - scikit-learn >= 1.0.1
-  - seaborn
-  - scipy
-  - joblib
-  - xgboost
+  # Core environment setup
+  - python =3.10 # Matches Google Colab's default version
+  - pip # For pip-installable packages not on conda
+  - ipykernel # Enables Jupyter kernel for this env
+  - jupyter # Base Jupyter support
+
+  # Data science libraries
+  - numpy # Core numerical computing
+  - pandas # Data manipulation
+  - matplotlib # Plotting library
+  - seaborn # Statistical data visualization
+  - scipy # Scientific computing functions
+  - scikit-learn >=1.0.1 # ML algorithms and preprocessing tools
+  - joblib # Model persistence & parallel processing
+  - xgboost # Gradient boosting framework
+
+  # Optional deep learning (uncomment if using neural networks)
   # - tensorflow
   # - keras
-  - pip
-  - nbconvert
-  - pandoc
-  - tectonic
-  - nbstripout
-  - black
-  - flake8
-  - isort
+
+  # Notebook conversion and export tools
+  - nbconvert # Convert notebooks to PDF, HTML, etc.
+  - pandoc # Needed by nbconvert to export to PDF
+  - tectonic # LaTeX engine for PDF export
+
+  # Development & linting tools (optional but helpful for clean code)
+  - nbstripout # Strips output from notebooks before commit
+  - black # Code formatter
+  - flake8 # Linter for Python code
+  - isort # Sorts Python imports
+
+# Optional: specify pip dependencies here
+# pip:
+#   - your-pip-only-package
