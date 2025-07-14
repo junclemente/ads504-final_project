@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python >= 3.7
+  - python =3.10
   - ipykernel
   - jupyter
   - matplotlib
@@ -14,8 +14,8 @@ dependencies:
   - scipy
   - joblib
   - xgboost
-  - tensorflow
-  - keras
+  # - tensorflow
+  # - keras
   - pip
   - nbconvert
   - pandoc
