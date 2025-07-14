@@ -6,28 +6,41 @@
 
 # Installation
 
-To get started with this project, please clone the repository into your local 
-using the comands below: 
+To get started with this project, please clone the repository and navigate
+to it:
 
 ```{bash}
-> git clone https://github.com/gw-00/ads503_project_g1.git  
-> cd ads503_project_g1
+> git clone https://github.com/junclemente/ads504-final_project.git
+> cd ads504-final_project
 ```
 
-## Environment
+## Environment Setup
 
-The recommended environment to use has been provided as a YAML file. 
-Use conda and the following code to create this environment: 
+This project uses a conda environment specified in a YAML file for
+reproducibility and consistent development. Ensure you have
+[Anaconda](https://www.anaconda.com/download) or
+[Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main)
+installed.
+
+### Create the Environment
+
+Run the following:
+
 ```{bash}
 conda env create -f environment/ads504_project.yml
 ```
 
+#### Update the Environment (if needed)
+
 If there are any updates to the environment, you can update the environment
-with the following: 
+with the following:
+
 ```{bash}
 conda env update -f environment/ads504_project.yml --prune
 ```
 
+The `--prune` option cleans the environment by removing packages that are
+no longer required.
 
 # Contributors
 
