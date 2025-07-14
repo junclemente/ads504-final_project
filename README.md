@@ -39,7 +39,6 @@
 # Presentations and Projects
 
 1.  Project Presentation:
-2.  Project Slides:
-3.  Document Link:
-4.  Project Repo: [https://github.com/junclemente/ads504-final_project](https://github.com/junclemente/ads504-final_project)
-5.
+2.  Project Slides: [Canva](https://canva.com)
+3.  Document Link: [Google Drive](https://drive.google.com)
+4.  Project Repo: [https://github.com/junclemente/ads504-final_project](https://github.com/junclemente/ads504-final_project) 
