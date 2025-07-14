@@ -1,0 +1,32 @@
+name: Run Notebooks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  execute:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v3
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: 📦 Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 📘 Execute notebooks in /notebooks
+        run: |
+          for nb in notebooks/*.ipynb; do
+            echo "Executing $nb..."
+            jupyter nbconvert --to notebook --execute "$nb" --output "$nb"
+          done

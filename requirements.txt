@@ -1,0 +1,14 @@
+ipykernel
+jupyter
+matplotlib
+numpy
+pandas
+scikit-learn>=1.0.1
+seaborn
+scipy
+joblib
+xgboost
+nbconvert
+black
+flake8
+isort
