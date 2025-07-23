@@ -28,5 +28,9 @@ jobs:
         run: |
           for nb in notebooks/*.ipynb; do
             echo "Executing $nb..."
-            jupyter nbconvert --to notebook --execute "$nb" --output "$nb"
+            jupyter nbconvert --to notebook --execute "$nb" \
+              --output "$(basename "$nb")" \
+              --ExecutePreprocessor.kernel_name=python3 \
+              --ExecutePreprocessor.timeout=600
           done
+
