@@ -15,6 +15,7 @@ dependencies:
   - jupyter # Base Jupyter support
 
   # Data science libraries
+  - imbalanced-learn # Handling class imbalance (SMOTE)
   - numpy # Core numerical computing
   - pandas # Data manipulation
   - matplotlib # Plotting library
