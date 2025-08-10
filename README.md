@@ -68,19 +68,17 @@ no longer required.
 
 # Abstract
 
-This study’s objective was to develop and evaluate multiple machine learning algorithms to accurately predict customer responses to marketing campaigns selling term deposits within the context of the popular Bank Marketing Dataset featured by The University of California Irvine’s Machine Learning Repository. Data is originally from the Portuguese Banking Institution’s Marketing Department phone call campaigns.
+This study’s objective was to develop and evaluate multiple machine learning algorithms to accurately predict customer responses to marketing campaigns selling term deposits within the context of the popular Bank Marketing Dataset featured by The University of California Irvine’s Machine Learning Repository. Data is originally from the Portuguese Banking Institution’s Marketing Department phone call campaigns. Our team utilized a structured, analytical approach to perform exploratory data analysis, pre-processing, feature engineering and the development of different classification models to include Perceptron, Logistic Regression, K-Nearest Neighbors, Support Vector Classifiers, XGBoost, AdaBoost, Random Forest and Neural Networks. In order to reduce overfitting all models were split into training and testing sets and five-fold cross-validation was performed on the training data and results were averaged and stored in full. The final model performance on the testing data evaluates to how well the models generalize to unseen data. While all models performed well, the clear winner was the XGBoost model which achieved the highest Accuracy, Precision and AUC-ROC score in both training and testing datasets. This model was selected as the best model to begin building a model for purposes of identifying customers for term deposit accounts in a bank marketing department setting.
 
-# Problem Statement
+# Objective
 
-## Goal
-
-Develop and evaluate machine learning models to accurately predict customer responses to marketing campaigns. The outcome will help optimize targeting strategies, reduce costs, and increase subscription rates for term deposit products.
+The objective of our analysis is to build predictive models that can accurately classify whether a customer is likely to subscribe to a term deposit based on their personal and interaction data. By applying machine learning techniques, we aim to identify patterns and variables that influence customer decisions, improve campaign targeting, and optimize marketing resources. This analysis helps the bank target likely subscribers, reduce marketing costs, and improve conversion rates. By predicting customer behavior, the bank can deliver more efficient, personalized campaigns and make better use of its resources.
 
 # Google Colab
 
 There are two Jupyter Notebooks included in this project. While we recommend running them in a local environment (where dependencies are already managed), you may also run them directly in Google Colab using the links below—no setup or installation required.
 
-_Note:_ The Preprocess_Modeling.ipynb notebook may take up to 2 hours to complete due to the complexity of the model evaluation pipeline.
+_Note:_ The Preprocess_Modeling.ipynb notebook may take up to 30 minutes or longer to complete due to the complexity of the model evaluation pipeline.
 
 - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg) EDA.ipynb](https://colab.research.google.com/github/junclemente/ads504-final_project/blob/main/notebooks/EDA.ipynb)  
 
