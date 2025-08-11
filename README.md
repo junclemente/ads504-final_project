@@ -64,6 +64,8 @@ no longer required.
 - Scikit-learn
 - Imbalanced-learn (SMOTE)
 - Jupyter Notebook / Google Colab
+- Github / Github Desktop
+- ChatGPT / Github Copilot
 - VSCode
 
 # Abstract
@@ -91,9 +93,20 @@ UC Irvine ML Repository: Bank Marketing
 - Observation: 41,188
 - Features: 20
 
-# Acknowledgements
 
 # References
+
+Allen, L. (2024, February 9). Best marketing strategies for banks (2024). *Drive Research*. https://www.driveresearch.com/market-research-company-blog/bank-marketing-strategies/  
+
+Geron, A. (2019). *Hands-on machine learning with scikit-learn, Keras, and TensorFlow: Concepts, tools, and techniques to build intelligent systems*. O’Reilly.  
+
+Moro, S., Rita, P., & Cortez, P. (2014). Bank marketing dataset. *UCI Machine Learning Repository*. https://doi.org/10.24432/C5K306  
+
+OpenAI. (2025). *ChatGPT* (Feb 9 version) [Large language model]. https://chat.openai.com/  
+
+GitHub. (2025). *GitHub Copilot* [AI code generation tool]. https://github.com/features/copilot  
+
+
 
 # Presentations and Projects
 
