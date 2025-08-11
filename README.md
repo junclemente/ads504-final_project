@@ -107,10 +107,7 @@ OpenAI. (2025). *ChatGPT* (Feb 9 version) [Large language model]. https://chat.o
 GitHub. (2025). *GitHub Copilot* [AI code generation tool]. https://github.com/features/copilot  
 
 
-
 # Presentations and Projects
 
-1.  Project Presentation: 
-2.  Project Slides: [Canva](https://canva.com)
-3.  Document Link: [Google Drive](https://drive.google.com)
+1.  Project Presentation: [Youtube: Smarter Marketing: Predicting Customer Decisions in Retail Banking](https://youtu.be/qvRPoqDG_20)
 4.  Project Repo: [https://github.com/junclemente/ads504-final_project](https://github.com/junclemente/ads504-final_project)
